@@ -1,2 +1,2 @@
-# ripper
-Gathering media from any source at internet 
+# Ripper
+Cloud downloader

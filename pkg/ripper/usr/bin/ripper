@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#https://gist.github.com/ivanskodje/5e6f4f7d883cd1124d6d0680b51c4cd9
+
+
+#!/bin/bash
+for i in "$@";
+do
+youget --extract-audio \
+    --audio-format mp3 \
+    --output "~/Music/%(playlist_title)s/%(playlist_index)s - %(title)s.%(ext)s" \
+    "$i"
+done
